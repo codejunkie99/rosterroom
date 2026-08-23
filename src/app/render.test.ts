@@ -16,7 +16,7 @@ describe("renderCatalog", () => {
     expect(document.querySelector("#hero-title span")?.textContent).toBe("82");
     expect(document.querySelector(".compat small")?.textContent).toMatch(/Unofficial community project/);
     expect(document.querySelectorAll("[data-roster]")).toHaveLength(82);
-    expect(getByRole(document.body, "heading", { name: "Solo founder", level: 2 })).toBeTruthy();
+    expect(getByRole(document.body, "heading", { name: "Founder command", level: 2 })).toBeTruthy();
     expect(getByRole(document.body, "button", { name: "Copy full setup" })).toBeTruthy();
     expect(getByRole(document.body, "button", { name: "Copy first job" })).toBeTruthy();
     expect(getByRole(document.body, "button", { name: "Copy fallback" })).toBeTruthy();
