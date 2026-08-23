@@ -1,0 +1,48 @@
+import { describe, expect, it } from "vitest";
+import { buildSetupPrompt } from "../prompts/buildPrompt";
+import { expansionRosters } from "./expansion";
+import { financeRosters } from "./finance";
+import { rosters } from "./index";
+import { rebuiltRosters } from "./rebuilt";
+import { validateRosterCollection } from "./validate";
+
+describe("roster collection", () => {
+  it("contains exactly 32 rebuilt and 50 expansion desks", () => {
+    expect(rebuiltRosters).toHaveLength(32);
+    expect(expansionRosters).toHaveLength(50);
+    expect(rosters).toHaveLength(82);
+  });
+
+  it("contains deep finance coverage", () => {
+    expect(financeRosters.length).toBeGreaterThanOrEqual(30);
+    expect(financeRosters.map((roster) => roster.name)).toEqual(
+      expect.arrayContaining([
+        "Hedge fund CIO",
+        "Quant research",
+        "Systematic trading",
+        "Execution desk",
+        "Options volatility",
+        "Portfolio construction",
+        "Model validation",
+        "Fund administration",
+      ]),
+    );
+  });
+
+  it("keeps every roster valid, unique, and operationally bounded", () => {
+    expect(validateRosterCollection(rosters)).toEqual([]);
+    expect(new Set(rosters.map((roster) => roster.slug)).size).toBe(82);
+    for (const roster of rosters) {
+      expect(roster.specialists.length).toBeGreaterThanOrEqual(2);
+      expect(roster.specialists.length).toBeLessThanOrEqual(4);
+      expect(roster.firstTask.length).toBeGreaterThan(45);
+      expect(buildSetupPrompt(roster)).toContain("GLOBAL APPROVAL GATE");
+    }
+  });
+
+  it("marks the original job set and the new expansion separately", () => {
+    expect(rebuiltRosters.every((roster) => roster.origin === "rebuilt")).toBe(true);
+    expect(expansionRosters.every((roster) => roster.origin === "expansion")).toBe(true);
+  });
+});
+
