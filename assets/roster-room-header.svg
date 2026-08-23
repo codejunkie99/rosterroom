@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 540" role="img" aria-labelledby="title desc">
+  <title id="title">Roster Room — 82 agent-team prompts for Grok Bot</title>
+  <desc id="desc">Editorial cover graphic for the Roster Room prompt library.</desc>
+  <rect width="1600" height="540" fill="#F2EFE3"/>
+  <g stroke="#191813" stroke-opacity="0.16" stroke-width="1">
+    <path d="M80 0v540M240 0v540M400 0v540M560 0v540M720 0v540M880 0v540M1040 0v540"/>
+    <path d="M0 90h1150M0 450h1150"/>
+  </g>
+  <rect x="2" y="2" width="1596" height="536" fill="none" stroke="#191813" stroke-width="4"/>
+  <path d="M1150 2v536" stroke="#191813" stroke-width="4"/>
+
+  <g transform="translate(58 35)">
+    <rect width="54" height="54" rx="4" fill="#191813"/>
+    <path d="M10 9h25v6H16v9h16v6H16v15h-6V9Z" fill="#D8FF3E"/>
+    <path d="M38 16h6v29h-6z" fill="#ECE8DA"/>
+    <circle cx="41" cy="10" r="4" fill="#E43D2F"/>
+    <text x="72" y="27" fill="#191813" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700">Roster Room</text>
+    <text x="73" y="49" fill="#191813" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="2.2">THE OPEN PROMPT INDEX / 2026</text>
+  </g>
+
+  <g transform="translate(64 154)">
+    <rect x="0" y="0" width="148" height="118" fill="#D8FF3E"/>
+    <text x="12" y="100" fill="#191813" font-family="Georgia, 'Times New Roman', serif" font-size="124" font-weight="700" letter-spacing="-8">82</text>
+    <text x="176" y="101" fill="#191813" font-family="Georgia, 'Times New Roman', serif" font-size="110" font-weight="700" letter-spacing="-5">agent teams.</text>
+    <text x="0" y="216" fill="#191813" font-family="Georgia, 'Times New Roman', serif" font-size="104" font-weight="700" letter-spacing="-5">One paste.</text>
+    <text x="558" y="216" fill="#E43D2F" font-family="Georgia, 'Times New Roman', serif" font-size="104" font-style="italic" font-weight="700" letter-spacing="-5">Zero chaos.</text>
+    <path d="M3 236L1010 225" stroke="#E43D2F" stroke-width="10"/>
+  </g>
+
+  <g transform="translate(65 474)" font-family="Arial, Helvetica, sans-serif" fill="#191813">
+    <text x="0" y="0" font-size="15" font-weight="800" letter-spacing="2">32 REBUILT</text>
+    <path d="M145 -24v32" stroke="#191813"/>
+    <text x="174" y="0" font-size="15" font-weight="800" letter-spacing="2">50 NEW</text>
+    <path d="M278 -24v32" stroke="#191813"/>
+    <text x="307" y="0" font-size="15" font-weight="800" letter-spacing="2">34 FINANCE</text>
+  </g>
+
+  <g transform="translate(1210 72)">
+    <rect width="96" height="96" fill="#F2EFE3" stroke="#191813" stroke-width="3"/>
+    <g transform="translate(14 14) scale(0.0664)">
+      <path d="M395.479 633.828L735.91 381.105C752.599 368.715 776.454 373.548 784.406 392.792C826.26 494.285 807.561 616.253 724.288 699.996C641.016 783.739 525.151 802.104 419.247 760.277L303.556 814.143C469.49 928.202 670.987 899.995 796.901 773.282C896.776 672.843 927.708 535.937 898.785 412.476L899.047 412.739C857.105 231.37 909.358 158.874 1016.4 10.6326C1018.93 7.11771 1021.47 3.60279 1024 0L883.144 141.651V141.212L395.392 633.916" fill="#0A0A0A"/>
+      <path d="M325.226 695.251C206.128 580.84 226.662 403.776 328.285 301.668C403.431 226.097 526.549 195.254 634.026 240.596L749.454 186.994C728.657 171.88 702.007 155.623 671.424 144.2C533.19 86.9942 367.693 115.465 255.323 228.382C147.234 337.081 113.244 504.215 171.613 646.833C215.216 753.423 143.739 828.818 71.7385 904.916C46.2237 931.893 20.6216 958.87 0 987.429L325.139 695.339" fill="#0A0A0A"/>
+    </g>
+    <text x="0" y="142" fill="#191813" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="800" letter-spacing="2.5">FOR GROK BOT</text>
+    <text x="0" y="186" fill="#191813" font-family="Georgia, 'Times New Roman', serif" font-size="43" font-weight="700">Copy the team.</text>
+    <text x="0" y="232" fill="#191813" font-family="Georgia, 'Times New Roman', serif" font-size="43" font-weight="700">Keep control.</text>
+    <path d="M0 267h326" stroke="#191813" stroke-width="2"/>
+    <text x="0" y="305" fill="#191813" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1.2">READ + RESEARCH + DRAFT</text>
+    <text x="0" y="332" fill="#E43D2F" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" letter-spacing="1.2">SEND + SPEND = APPROVAL</text>
+    <text x="0" y="379" fill="#191813" font-family="Arial, Helvetica, sans-serif" font-size="11">Unofficial community project.</text>
+    <text x="0" y="396" fill="#191813" font-family="Arial, Helvetica, sans-serif" font-size="11">Not affiliated with or endorsed by xAI.</text>
+  </g>
+</svg>

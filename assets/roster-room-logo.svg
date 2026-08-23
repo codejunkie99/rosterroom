@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 280" role="img" aria-labelledby="title desc">
+  <title id="title">Roster Room</title>
+  <desc id="desc">A copy-ready Grok Bot prompt library with 82 guarded agent teams.</desc>
+  <rect width="1120" height="280" rx="24" fill="#F2EFE3"/>
+  <rect x="3" y="3" width="1114" height="274" rx="21" fill="none" stroke="#191813" stroke-width="6"/>
+  <g transform="translate(54 54) scale(2.7)">
+    <rect width="64" height="64" rx="4" fill="#191813"/>
+    <path d="M12 11h29v7H19v10h18v7H19v18h-7V11Z" fill="#D8FF3E"/>
+    <path d="M45 19h7v34h-7z" fill="#ECE8DA"/>
+    <circle cx="48.5" cy="11.5" r="4.5" fill="#E43D2F"/>
+  </g>
+  <text x="274" y="132" fill="#191813" font-family="Georgia, 'Times New Roman', serif" font-size="78" font-weight="700" letter-spacing="-3">Roster Room</text>
+  <text x="280" y="184" fill="#191813" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="4">82 GUARDED AGENT TEAMS</text>
+  <rect x="280" y="211" width="450" height="9" fill="#E43D2F" transform="rotate(-1 280 211)"/>
+  <circle cx="1003" cy="140" r="62" fill="#D8FF3E" stroke="#191813" stroke-width="4"/>
+  <text x="1003" y="130" text-anchor="middle" fill="#191813" font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700">82</text>
+  <text x="1003" y="163" text-anchor="middle" fill="#191813" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" letter-spacing="2">PROMPTS</text>
+</svg>
