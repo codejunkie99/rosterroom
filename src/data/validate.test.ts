@@ -32,7 +32,7 @@ describe("validateRoster", () => {
   it("rejects duplicate bot names", () => {
     const roster = {
       ...baseRoster,
-      specialists: [{ ...baseRoster.specialists[0], name: baseRoster.lead.name }],
+      specialists: [{ ...baseRoster.specialists[0]!, name: baseRoster.lead.name }],
     };
     expect(validateRoster(roster)).toContain("bot names must be unique within a roster");
   });
@@ -55,4 +55,3 @@ describe("validateRosterCollection", () => {
     );
   });
 });
-
