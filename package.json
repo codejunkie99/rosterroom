@@ -1,0 +1,20 @@
+{
+  "name": "rosterroom",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "latest",
+    "jsdom": "^29.0.0",
+    "typescript": "latest",
+    "vite": "latest",
+    "vitest": "latest"
+  }
+}
