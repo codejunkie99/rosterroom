@@ -7,7 +7,7 @@ describe("catalog discovery", () => {
     expect(searchRosters(rosters, "HEDGE FUND").map((roster) => roster.name)).toContain("Hedge fund CIO");
     expect(searchRosters(rosters, "statistical reviewer").map((roster) => roster.name)).toContain("Quant research");
     expect(searchRosters(rosters, "survivorship").map((roster) => roster.name)).toContain("Quant research");
-    expect(searchRosters(rosters, "shopify").map((roster) => roster.name)).toContain("Shop");
+    expect(searchRosters(rosters, "shopify").map((roster) => roster.name)).toContain("Commerce control");
   });
 
   it("filters by lane, connection, and finance shortcut", () => {
@@ -21,4 +21,3 @@ describe("catalog discovery", () => {
     expect(findRosterBySlug(rosters, "missing").slug).toBe(rosters[0]?.slug);
   });
 });
-

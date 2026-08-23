@@ -7,6 +7,45 @@ import { rebuiltRosters } from "./rebuilt";
 import { validateRosterCollection } from "./validate";
 
 describe("roster collection", () => {
+  it("gives all 32 rebuilt categories distinct new public identities", () => {
+    const expectedNames = [
+      "Founder command",
+      "Capital raise",
+      "Revenue floor",
+      "Client studio",
+      "Resolution desk",
+      "Talent bench",
+      "Content engine",
+      "Commerce control",
+      "Release room",
+      "Maintainer guild",
+      "Property desk",
+      "Practice office",
+      "Field operations",
+      "Close desk",
+      "Mailroom",
+      "Home office",
+      "Study stack",
+      "Spend control",
+      "Journey desk",
+      "Customer watch",
+      "Product council",
+      "Ramp room",
+      "Assurance desk",
+      "Alliance desk",
+      "Editorial issue",
+      "Property operations",
+      "Event command",
+      "Audio studio",
+      "Funding desk",
+      "Family desk",
+      "Decision intelligence",
+      "Growth media",
+    ];
+    expect(rebuiltRosters.map((roster) => roster.name)).toEqual(expectedNames);
+    expect(new Set(rebuiltRosters.map((roster) => roster.slug)).size).toBe(32);
+  });
+
   it("contains exactly 32 rebuilt and 50 expansion desks", () => {
     expect(rebuiltRosters).toHaveLength(32);
     expect(expansionRosters).toHaveLength(50);
@@ -45,4 +84,3 @@ describe("roster collection", () => {
     expect(expansionRosters.every((roster) => roster.origin === "expansion")).toBe(true);
   });
 });
-
